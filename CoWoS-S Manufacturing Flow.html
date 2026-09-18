@@ -220,6 +220,12 @@
   .progress-bar{height:100%;background:#0e6ecf;width:0%;transition:width .25s ease}
 
   .source-note{font-size:10px;color:#8293a3;text-align:center;padding:0 12px 10px;background:#fff}
+  .references-section{background:#fff;border-top:1px solid var(--line);padding:14px 18px 22px}
+  .references-section details{width:min(1180px,100%);margin:0 auto;border:1px solid var(--line);border-radius:14px;background:#f8fbfe;overflow:hidden}
+  .references-section summary{cursor:pointer;padding:14px 16px;color:var(--navy);font-size:14px;font-weight:900;letter-spacing:.02em}
+  .references-section ol{margin:0;padding:0 32px 18px 46px}
+  .references-section li{margin:10px 0;color:#405b72;font-size:12px;line-height:1.55}
+  .references-section a{color:#0e6ecf;overflow-wrap:anywhere}
 
   @media(max-width:1050px){
     main{grid-template-columns:1fr}
@@ -275,7 +281,7 @@
       <h1>CoWoS-S Manufacturing Flow</h1>
       <div class="subtitle">Beginner-focused interactive teaching model · strict symmetry, continuity, and interface alignment</div>
     </div>
-    <div class="badge">Full-Step Flow · Author: Horus Yang</div>
+    <div class="badge">Full-Step Flow · 文獻整理作者：Horus Yang</div>
   </header>
 
   <div class="timeline-wrap">
@@ -361,6 +367,23 @@
     </div>
     <div class="source-note">Teaching schematic. Topology, orientation, and process sequence are intentionally preserved across steps; dimensions are not to scale.</div>
   </div>
+
+  <section class="references-section" aria-labelledby="references-title">
+    <details>
+      <summary id="references-title">References · 資料來源（9）</summary>
+      <ol>
+        <li>J. H. Lau et al., “Redistribution Layers (RDLs) for 2.5D/3D IC Integration,” <em>Journal of Microelectronics and Electronic Packaging</em>, vol. 11, no. 1, pp. 16–24, 2014. <a href="https://doi.org/10.4071/imaps.406" target="_blank" rel="noopener noreferrer">doi:10.4071/imaps.406</a></li>
+        <li>M. LaPedus, “Scaling Bump Pitches in Advanced Packaging,” <em>Semiconductor Engineering</em>, Oct. 25, 2021. <a href="https://semiengineering.com/scaling-bump-pitches-in-advanced-packaging/" target="_blank" rel="noopener noreferrer">Online source</a></li>
+        <li>J. H. Lau, <em>Flip Chip, Hybrid Bonding, Fan-In, and Fan-Out Technology</em>. Singapore: Springer Nature Singapore, 2024. <a href="https://doi.org/10.1007/978-981-97-2140-5" target="_blank" rel="noopener noreferrer">doi:10.1007/978-981-97-2140-5</a></li>
+        <li>P. Nimbalkar, P. Bhaskar, L. N. V. Kumar, M. Narayanan, E. Torres, S. S. A. Venkataramanan, and M. Kathaperumal, “A Review of Glass Substrate Technologies,” <em>Chips</em>, vol. 4, no. 3, Art. no. 37, 2025. <a href="https://doi.org/10.3390/chips4030037" target="_blank" rel="noopener noreferrer">doi:10.3390/chips4030037</a></li>
+        <li>Z. Plachý, A. Pražanová, K. Dušek, and A. Géczy, “Underfill: A Review of Reliability Improvement Methods in Electronics Production,” <em>Polymers</em>, vol. 17, no. 16, Art. no. 2206, 2025. <a href="https://doi.org/10.3390/polym17162206" target="_blank" rel="noopener noreferrer">doi:10.3390/polym17162206</a></li>
+        <li>H. N. Huang et al., “Study of Underfill Dispensing for a Large-Die Package,” in <em>Proc. 2017 IEEE 19th Electronics Packaging Technology Conference (EPTC)</em>, Singapore, 2017, pp. 1–4. <a href="https://doi.org/10.1109/EPTC.2017.8277545" target="_blank" rel="noopener noreferrer">doi:10.1109/EPTC.2017.8277545</a></li>
+        <li>3M, “Temporary Bonding and Debonding for Semiconductor Advanced Packaging,” <em>3M Semiconductor Advanced Packaging</em>. <a href="https://www.3m.com.sg/3M/en_SG/semiconductor-sg/solutions/advancedpackaging/advancedpackaging-tbdb/" target="_blank" rel="noopener noreferrer">Online source</a> [Accessed: Sep. 18, 2026].</li>
+        <li>S. R. Alety, K. V. Sagi, and S. V. Babu, “Role of Ce³⁺ Ions in Achieving High Silicon Nitride Polish Rates,” <em>ECS Journal of Solid State Science and Technology</em>, vol. 6, no. 12, pp. P898–P903, 2017. <a href="https://doi.org/10.1149/2.0351712jss" target="_blank" rel="noopener noreferrer">doi:10.1149/2.0351712jss</a></li>
+        <li>M. LaPedus, “Shortages Hit Packaging Biz,” <em>Semiconductor Engineering</em>, Dec. 11, 2017. <a href="https://semiengineering.com/shortages-hit-packaging-biz/" target="_blank" rel="noopener noreferrer">Online source</a></li>
+      </ol>
+    </details>
+  </section>
 </div>
 
 <script>
